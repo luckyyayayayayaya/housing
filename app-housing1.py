@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.title("California Housing Data (1990) by [Gaoya]")
 
 # 读取数据集
-df = pd.read_csv("housing.csv")
+df = pd.read_csv("housing 2.csv")
 
 # 2. 房价最小值滑块
 house_value_min = st.slider(
